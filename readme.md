@@ -23,7 +23,7 @@ return [
 ```
 
 Publish the package.
-```
+```bash
 artisan vendor:publish srph/laravel-antispam
 ```
 
