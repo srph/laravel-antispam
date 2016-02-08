@@ -37,7 +37,7 @@ class AntiSpam
      *
      * @return string
      */
-    public function generateQuestion() {
+    protected function generateQuestion() {
         if ( null !== $this->question ) {
             return $this->question;
         }
