@@ -31,7 +31,7 @@ Configure the package located in `config/packages/antispam/app.php`.
 
 ## Usage
 Go to your form, then add the required inputs.
-```blade
+```html
 <form>
 	<!-- Generates a hidden input -->
 	{{ AntiSpam::getInput() }}
