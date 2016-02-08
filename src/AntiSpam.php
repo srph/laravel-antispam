@@ -2,6 +2,8 @@
 
 namespace Srph\LaravelAntiSpam;
 
+use Exception;
+
 class AntiSpam
 {
 
