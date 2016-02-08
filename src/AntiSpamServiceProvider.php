@@ -33,7 +33,7 @@ class ValidationServiceProvider extends ServiceProvider
      * @return void
      */
     public function register() {
-        $this->publishes(
+        $this->mergeConfigFrom(
             __DIR__. '/config/config.php', 'antispam'
         );
 
