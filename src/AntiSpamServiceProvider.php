@@ -33,6 +33,10 @@ class ValidationServiceProvider extends ServiceProvider
      * @return void
      */
     public function register() {
+        $this->publishes(
+            __DIR__. '/config/config.php', 'antispam'
+        );
+
         $this->app->singleton(AntiSpam::class, function() {
             return new \AntiSpam(config('antispam'));
         });
