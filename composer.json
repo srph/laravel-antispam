@@ -1,0 +1,16 @@
+{
+    "name": "srph/laravel-antispam",
+    "authors": [
+        {
+            "name": "srph",
+            "email": "seraphipod@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.5.9",
+	},
+	"require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0"
+	}
+}
