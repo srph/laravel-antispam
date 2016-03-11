@@ -1,7 +1,4 @@
 ## laravel-antispam
-```bash
-composer require srph/laravel-antispam
-```
 An antispam package for Laravel.
 
 It provides a basic quiz for the registrant/guest to answer, effective for registration forms.
@@ -51,3 +48,6 @@ Validator::make($input, $rules);
 ```
 
 You should be good to go ;).
+
+## Dropped and Unmaintained
+This project never got published, and is no longer maintained.
